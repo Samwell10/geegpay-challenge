@@ -1,0 +1,135 @@
+.summarycard{
+    padding: 1rem;
+    border-radius: 14px;
+    border: 1px solid #EDF2F7;
+    background: #FFF;
+}
+.summarycard-dark{
+    padding: 1rem;
+    border-radius: 14px;
+    background-color: #1E1E1E;
+}
+.summarycard:hover{
+    box-shadow: 10px 9px 17px 3px rgba(232,232,232,0.75);
+    -webkit-box-shadow: 10px 9px 17px 3px rgba(232,232,232,0.75);
+    -moz-box-shadow: 10px 9px 17px 3px rgba(232,232,232,0.75);
+}
+.card-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.714px solid #E6E6E6;
+    border-radius: 50%;
+}
+.card-body{
+    margin-top: 10px;
+}
+.card-title{
+    color: #898989;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+}
+.card-text{
+    color: #3A3F51;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+}
+.card-bottom{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gain{
+    padding: 0.5rem;
+    border-radius: 62.5rem;
+    background: rgba(52, 202, 165, 0.12);
+}
+.gain p{
+    color: #34CAA5;
+    font-family: "Plus Jakarta Sans";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+}
+.gain p span{
+    margin-right: 4px;
+}
+.loss{
+    padding: 0.5rem;
+    border-radius: 62.5rem;
+    background: rgba(237, 84, 78, 0.12);
+}
+.loss p{
+    color: #ED544E;
+    font-family: "Plus Jakarta Sans";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+}
+.loss p span{
+    margin-right: 4px;
+}
+.previous-month{
+    color: #606060;
+    font-family: "Inter";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media (max-width: 1300px) {
+    .gain p{
+        color: #34CAA5;
+        font-family: "Plus Jakarta Sans";
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 500;
+    }
+    .previous-month{
+        color: #606060;
+        font-family: "Inter";
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .loss p{
+        color: #ED544E;
+        font-family: "Plus Jakarta Sans";
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 500;
+    }
+}
+@media (max-width:1170px) {
+    .gain p{
+        font-size: 0.5rem;
+    }
+    .previous-month{
+        font-size: 0.75rem;
+    }
+    .loss p{
+        font-size: 0.5rem;
+    }
+}
+@media (max-width:500px) {
+    /* .summarycard{
+        padding: 1rem;
+        border-radius: 14px;
+        border: 1px solid #EDF2F7;
+        background: #FFF;
+    } */
+}

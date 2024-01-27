@@ -1,0 +1,43 @@
+.platform{
+    width:100%;
+    margin-top: 20px;
+}
+.platform-header{
+    color: var(--Black, #22242C);
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+}
+.progressBar{
+    width: 100%;
+    height: 12px;
+    margin-top: 17px;
+    margin-bottom: 16px;
+    border-radius: 40px;
+    background: var(--Gray-2, #F5F5F5);
+}
+.progressbar-fill{
+    height: 100%;
+    border-radius: 40px;
+    transition: width 0.5s ease-in-out;
+}
+.platform-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.platform-amount{
+    color: var(--Neutral-600, #525252);
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+}
+.platform-percent{
+    color: var(--Neutral-600, #525252);
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+}
